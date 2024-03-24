@@ -1,0 +1,21 @@
+## Tableau Dashboard : https://public.tableau.com/app/profile/moataz.osama/viz/BikeSalesAnalysis_17098231966970/SalesDashboard
+This project focuses on analyzing the Europe Bike Store Sales dataset, which was downloaded from Kaggle. The dataset contains the following columns:
+
+    Date: Date of the transaction
+    Day: Day of the transaction
+    Month: Month of the transaction
+    Year: Year of the transaction
+    Customer_Age: Age of the customer
+    Age_Group: Age group of the customer
+    Customer_Gender: Gender of the customer
+    Country: Country of the sale
+    State: State of the sale
+    Product_Category: Category of the product
+    Sub_Category: Sub-category of the product
+    Product: Name of the product
+    Order_Quantity: Quantity ordered
+    Unit_Cost: Cost per unit
+    Unit_Price: Price per unit
+    Profit: Profit generated from the sale
+    Cost: Total cost of the order
+    Revenue: Total revenue generated from the sale

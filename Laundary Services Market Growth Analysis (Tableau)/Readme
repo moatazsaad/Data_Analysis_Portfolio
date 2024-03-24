@@ -1,0 +1,34 @@
+Overview:
+WeWashYouSleep is a small laundry pick-up service startup facing significant competition from major players. 
+In response, the company has devised a strategic plan to establish a robust network within smaller cities. Already boasting a strong presence in 140 locations, WeWashYouSleep recently expanded its operations by launching services in an additional 190 cities. Additionally, the company operates within two distinct sales regions.
+
+Link to Dashboard: https://public.tableau.com/app/profile/moataz.osama/viz/Laundry-PickupServices/Dashboard1#1
+
+Objective: 
+- Determine which sales region outperforms the other across two of three key metrics:
+    Average revenue per city
+    Average marketing spend per city
+    Average return on marketing investment (ROMI) per city (calculated as revenue divided by marketing spend)
+- Identify the top ten new locations offering the greatest potential for the company to allocate additional funds towards marketing initiatives.
+
+Approach and Findings:
+
+Addressing Sales Region Analysis:
+- Utilized visualizations for average revenue, marketing spend, and ROMI per city in each region.
+- Identified Region 1 with higher average revenue, lower marketing spend, and higher ROMI.
+
+Combining Population and Expansion Data:
+- Integrated population data with expansion datasets for comprehensive analysis.
+- Employed clustering techniques based on revenue, marketing spend, and population.
+
+Cluster Analysis:
+- Red cluster with low population and revenue.
+- Orange cluster showing revenue increase with population.
+- Blue cluster indicating even higher revenue with dense populations.
+
+Trend Line Analysis:
+Cluster 1: Loss observed for every dollar spent on marketing.
+Cluster 2: Substantial revenue increase per marketing dollar.
+Cluster 3: Highest return on investment, indicating optimal marketing allocation.
+
+Based on these insights, prioritizing marketing investment in  stores within Cluster 3 emerges as the most effective strategy due to its high return on investment.

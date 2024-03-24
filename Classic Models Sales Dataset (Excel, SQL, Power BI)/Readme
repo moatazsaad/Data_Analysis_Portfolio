@@ -1,0 +1,22 @@
+Overview
+
+This project aims to analyze the Classic Models Sales dataset, encompassing tables of customers, employees, offices, order details, orders, payments, product lines, and products. The primary objective is to address various business inquiries using a combination of SQL queries and Excel calculations.
+Business Questions:
+
+1- Overview of Sales for 2004: Provide a detailed breakdown by product, country, city, sales value, cost of sales, and net profit for the year 2004.
+2- Product Association Analysis: Identify products commonly purchased together and those rarely bought simultaneously.
+3- Credit Limit Analysis: Investigate sales in relation to credit limits, exploring whether customers with higher credit limits generate more sales.
+4- Customer Sales Analysis: Include a column indicating the difference in value from customers' previous sales. Determine if new customers tend to spend more on their initial purchase.
+5- Geographical Distribution of Customers: Visualize the locations of customers associated with each office.
+6- Delayed Shipping Investigation: Identify orders affected by weather-related delays that may result in up to 3 days of shipping delay.
+7- Customer Credit Limit Exceedance: Analyze each customer's sales and identify any instances where customers have exceeded their credit limit.
+
+To address these questions, the project follows a structured approach:
+
+1- Data Retrieval: Extract relevant data from the database using SQL queries.
+2- Excel Analysis: Export the extracted data to Excel and perform necessary calculations using pivot tables and formulas.
+3- Visualization: Create visual representations of the analysis results using Excel charts and graphs to facilitate interpretation.
+
+Integration with Power BI
+
+In addition to the above steps, a SQL view has been developed to streamline integration with Power BI. This view serves as a connection point for importing data into Power BI, facilitating the creation of interactive dashboards and visualizations based on the analyzed data. The Power BI dashboard will provide a dynamic interface for exploring insights derived from the Classic Models dataset, thereby enhancing decision-making capabilities and business strategy development.

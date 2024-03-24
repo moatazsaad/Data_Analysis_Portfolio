@@ -1,0 +1,21 @@
+This project aims to analyze Netflix data obtained from Kaggle. The dataset contains information about various TV shows and movies available on Netflix, including details such as title, director, cast, countries, and more.
+
+The project involved the following steps:
+
+- Data Download: Netflix data was downloaded from Kaggle using the provided link (https://www.kaggle.com/datasets/shivamb/netflix-shows).
+
+- Data Splitting: Columns such as director, cast, countries, and listed_in were split into separate columns to improve data organization and analysis. This was necessary as some columns were originally combined and contained multiple values.
+
+- CSV File Creation: Separate CSV files were created for each split column, director, cast, countries, and listed_in.
+
+- Data Import to SQL Workbench: The split CSV files were imported into SQL Workbench for further analysis. Since some columns, like cast, were split across multiple columns (up to "cast_50"), SQL queries were applied to combine the data using the UNION operator and filter out rows with NULL values in the "cast" column.
+
+-  Data Import to Power BI: The cleaned and organized data was imported into Power BI to create a dashboard showcasing various insights about Netflix shows. The dashboard includes visualizations for shows added by date, shows by rating, top 10 genres, countries where movies are available.
+
+Dashboard Visualizations:
+
+- Shows Added by Date: Area chart showing the number of shows added to Netflix over time.
+- Shows by Rating: Stacked Column chart displaying the distribution of shows based on their rating.
+- Top 10 Genres: Clustered bar chart showing the top 10 genres of shows available on Netflix.
+- Countries with Available Movies: Map visualization highlighting countries where Netflix movies are available.
+- Single Title View: Detailed view providing information about a selected title, including its director, cast, genres and more.

@@ -1,0 +1,27 @@
+Summary:
+
+The Olympic Medals Dataset analysis aimed to explore and understand various aspects of Olympic data, including the performance of different countries, the relationship between success and economic factors, geographical influences on medal counts, gender disparities in sports, and the significance of traditional sports.
+
+    Data Loading and Exploration:
+    The analysis began with loading and exploring the dataset, which included summer and winter Olympic data as well as a dictionary for country codes and names.
+
+    Data Cleaning:
+    Data cleaning steps involved merging datasets, handling missing values in the country names, and converting data types where necessary.
+
+    Top Performing Countries:
+    The analysis identified the top 10 countries by total medals and visualized their performance using bar plots and count plots. Additionally, the distribution of medals across gold, silver, and bronze categories was explored.
+
+    Impact of Economic Factors:
+    The analysis investigated the relationship between a country's success in the Olympics and its economic factors such as GDP per capita and population. Hypothesis tests were conducted to assess the significance of these relationships.
+
+    Aggregating and Rating:
+    Countries were ranked based on their total medal counts, and a heatmap visualization was used to compare their relative success. Aggregations were made based on different categories like gender and sports.
+
+    Geographical and Climatic Influences:
+    The analysis explored whether geographical location and climate influence a country's performance in the Olympics, particularly in relation to summer and winter games.
+
+    Gender Disparities:
+    Gender disparities in sports were examined by comparing the number of medals won by men and women in the top 50 countries. Heatmaps were used to visualize these differences.
+
+    Cultural and Traditional Influences:
+    The significance of traditions and national sports in a country's Olympic performance was explored by analyzing the distribution of medals across different sports for the top 20 countries.
