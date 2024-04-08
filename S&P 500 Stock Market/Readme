@@ -1,0 +1,28 @@
+S&P 500 Stock Market Data Analysis
+
+This project explores the S&P 500 stock market data using Python libraries for data manipulation, visualization, and analysis. Here's an overview of the key aspects covered in the analysis:
+
+- Data Import and Setup:
+    The code starts by importing necessary libraries and mounting Google Drive to access data files. It navigates to the directory containing the data files.
+
+- Combining Data:
+    Multiple CSV files containing stock data for different companies are merged into a single DataFrame named all_data.
+
+- Exploratory Data Analysis (EDA):
+    Basic information about the combined dataset is provided, including data types and missing values.
+    The change in stock prices over time for each company is visualized to understand the stock performance.
+
+- Moving Average Analysis:
+    Moving averages (10-day, 20-day, and 50-day) of stock closing prices are calculated and plotted to identify trends.
+
+- Analyzing Specific Stocks:
+    The closing price change for Apple stock is analyzed, and daily percentage returns are visualized over time.
+
+- Resample Analysis:
+    The closing prices are resampled by month, year, and quarter to analyze average prices over different time intervals.
+
+- Correlation Analysis:
+    Correlation between closing prices of tech companies (Apple, Amazon, Google, Microsoft) is explored using pair plots and a correlation heatmap.
+    Additionally, correlation between daily percentage change in closing prices is examined to understand if there's a relationship between daily returns of different stocks.
+
+This analysis provides insights into stock performance, trends, and relationships between different tech companies' stock prices, facilitating informed investment decisions.
