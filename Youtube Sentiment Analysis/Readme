@@ -1,0 +1,28 @@
+YouTube Sentiment Analysis
+
+This code presents an analysis of sentiments and other key aspects within YouTube comments, providing valuable insights into audience engagement, emoji usage, and addressing specific business questions. Here's a concise summary of the key components:
+
+- Data Import and Setup:
+    The code begins by importing necessary libraries and setting up the environment, including mounting Google Drive for accessing data files.
+
+- Exploratory Data Analysis (EDA):
+    Conducts an exploratory analysis of the YouTube comments dataset, including checking data information, handling missing values and visualizing distributions.
+
+- Sentiment Analysis:
+    Utilizes TextBlob for sentiment analysis, calculating polarity scores for comments and categorizing them as positive or negative based on polarity thresholds.
+
+- Emoji Analysis:
+    Analyzes emoji usage frequency in comments, extracting emojis and visualizing their occurrence using Plotly.
+
+- Exporting Data:
+    Combines and exports data to CSV format and also to a SQLite database for further analysis or integration with other systems.
+
+- Business Questions:
+    Addresses specific business questions such as:
+    Category-wise likes to identify which category receives the maximum likes.
+    Audience engagement analysis to determine engagement rates across different categories.
+    Identifying channels with the largest number of trending videos.
+    Exploring the relationship between punctuation usage in titles/tags and views, likes, dislikes and comments.
+
+- Conclusion:
+    The analysis provides actionable insights into audience sentiment, engagement patterns and factors influencing video performance on YouTube.
