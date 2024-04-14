@@ -1,0 +1,25 @@
+Exploring Olympic Medals Dataset: Analyzing Success Factors and Traditions
+
+This data analysis project explores the Olympic Medals Dataset, aiming to uncover insights into the factors influencing countries' success in the Olympics and the role of traditions in shaping performance.
+
+- Introduction and Data Loading:
+The project begins with loading the necessary data, including datasets for summer and winter Olympic events, as well as a dictionary providing additional information.
+
+- Exploratory Data Analysis (EDA):
+The EDA section involves merging and concatenating the summer and winter datasets, followed by data cleaning steps such as handling missing values and renaming columns. Key visualizations and analyses include:
+
+  Identifying the top 10 countries by total medals and visualizing their performance.
+  Splitting total medals of top countries by Summer/Winter Games and analyzing typical Summer/Winter Games countries.
+  Analyzing total medals of top countries by Gold, Silver, and Bronze categories.
+
+- Analyzing the Impact of GDP, Population, and Participation:
+The project tests hypotheses regarding the relationship between a country's success in the Olympics and factors such as GDP, Population, and Participation. Statistical tests such as Spearman rank correlation are conducted to assess these relationships.
+
+- Aggregating and Rating:
+The dataset is aggregated to compare relative success among countries, considering factors like total medals, gender distribution, and historical performance. Rankings are generated to visualize the performance of the top 50 countries.
+
+- Geographical Location and Traditions:
+The analysis investigates whether geographical location and traditions play a role in a country's Olympic success. Heatmaps are used to compare the performance of countries in Summer vs. Winter Games and to assess differences between men's and women's medal counts. Additionally, the project explores the significance of national sports traditions.
+
+- Conclusion:
+The project concludes by providing insights into the factors influencing Olympic success and traditions' impact on countries' performances. It highlights the importance of factors such as GDP, Population, and Geographical Location, along with cultural and historical traditions, in shaping countries' performances in the Olympics.
